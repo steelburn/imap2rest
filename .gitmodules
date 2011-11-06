@@ -1,0 +1,3 @@
+[submodule "node_modules/imap"]
+	path = node_modules/imap
+	url = https://github.com/brunomorency/node-imap.git

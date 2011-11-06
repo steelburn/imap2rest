@@ -1,0 +1,13 @@
+{ "name": "imap2rest"
+, "version": "0.0.1"
+, "author": "George Miroshnykov <gmiroshnykov@gmail.com>"
+, "description": "RESTful interface for any IMAP mail server"
+, "engines":
+  { "node" : "~0.4"
+  }
+, "dependencies":
+  { "imap": "~0.2"
+  , "express": "~2"
+  , "underscore": "~1"
+  }
+}
