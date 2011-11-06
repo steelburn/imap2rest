@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+var config = require('../config');
+var imap2rest = require('../lib/imap2rest');
+var server = imap2rest.createServer(config);
+server.start(function(err) {
+    if (err) throw err;
+    console.log('Server started.');
+});
+
