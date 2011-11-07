@@ -9,13 +9,14 @@ What's implemented
     curl http://localhost:8080/ && echo
     ["Chats","Contacts","Drafts","Emailed Contacts","INBOX","Junk","Sent","Trash"]
 
-    curl http://localhost:8080/INBOX/search?since=November%201,%202011"
+    curl "http://localhost:8080/INBOX/search?since=November%201,%202011"
     ["790","791","792", ...skipped..., "852"]
 
 Installation
 ------------
 
     git clone --recursive http://github.com/laggyluke/imap2rest.git
+    cd imap2rest
     sudo npm link
 
 Running
