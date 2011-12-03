@@ -12,6 +12,13 @@ What's implemented
     curl "http://localhost:8080/INBOX/search?since=November%201,%202011"
     ["790","791","792", ...skipped..., "852"]
 
+    curl "http://localhost:8080/INBOX/31337/headers"
+    {"content-type":["text/html; charset=UTF-8"],...}
+
+    curl "http://localhost:8080/INBOX/31337/body"
+    <A bunch of HTML>
+
+
 Installation
 ------------
 
