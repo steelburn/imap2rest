@@ -3,6 +3,13 @@ imap2rest
 
 IMAP 2 REST interface.
 
+Disclaimer
+----------
+
+This is just a proof of concept.
+It's neither maintained nor supported.
+**Use at your own risk!**
+
 What's implemented
 ------------------
 
